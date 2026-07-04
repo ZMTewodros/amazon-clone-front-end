@@ -85,7 +85,7 @@ src
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/amazon-clone-frontend.git
+git clone https://github.com/ZMTewodros/amazon-clone-front-end.git
 ```
 
 Install dependencies
