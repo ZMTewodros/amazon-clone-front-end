@@ -10,7 +10,7 @@ import {ClipLoader} from 'react-spinners'
 function Auth() {
   const [email,setEmail]=useState("")
   const [password,setPassword]=useState("")
-  const [{user},dispatch]=useContext(DataContext)
+  const [,dispatch]=useContext(DataContext)
   const [error,setError]=useState("")
   const [loading,setLoading]=useState({
     signIn:false,
