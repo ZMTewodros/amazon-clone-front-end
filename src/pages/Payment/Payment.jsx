@@ -126,8 +126,6 @@ console.log("Order written to Firestore");
           {user ? (  // Conditional rendering for user information
             <div>
               <div>{user.email}</div>
-              <div>123 react </div>
-              <div>Ethiopia,Debretabor</div>
             </div>
           ) : (
             <div>No delivery address available.</div> // Placeholder if no user

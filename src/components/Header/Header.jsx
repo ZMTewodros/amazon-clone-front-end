@@ -59,10 +59,10 @@ function Header() {
           <div className={classes.order_container}>
             <a href="#" className={classes.language}>
               <img
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1024px-Flag_of_the_United_States.svg.png"
-                alt="US Flag"
-                width={25}
-              />
+  src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
+  alt="US Flag"
+  width={25}
+/>
               <select name="language" id="language">
                 <option value="en">EN</option>
               </select>
